@@ -1,0 +1,152 @@
+
+    /*Start of universal selector*/
+body{
+    font-family: open-sans;
+}
+
+h1{
+    color: #2c3e50;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: #918f8f;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+li {
+    float: left;
+    list-style: none;
+    width: 218px;
+}
+
+ul {
+    overflow: hidden;
+    padding: 0;
+    left: 0;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+/*End of universal selector*/
+
+
+/* Start of Navbar*/
+.container-fluid.header {
+    background: #2c3e50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+    
+    /*dari sini uji coba navbar header*/
+a.nav-item.nav-link.mr-3.button {
+    color: white;
+    border-top: 1px solid #2c3e50;
+    size: 2px;
+    width: 90px;
+    /*dibawah ini tambahan*/
+    height: 160%;
+    position: relative;
+    z-index: 9;
+}
+
+ul.ul-submenu2 {
+    position: absolute;
+    z-index: 1;
+    top: 68px;
+    width: 130px;
+    background: transparent;
+    opacity: 0;
+    height: 0;
+    transition: height 0.5s, background 0.5s,opacity 0.5s,width 0.5s;
+}
+
+a.nav-item.nav-link.mr-3.button:hover ul.ul-submenu2 {
+    display: block;
+    background: white;
+    width: 130px;
+    opacity: 1;
+    height: 120px;
+}
+
+span.ujicoba4 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba4:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+
+span.ujicoba5 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba5:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+
+span.ujicoba6 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba6:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+    /*sampe sini uji coba navbar header*/
+
+a.nav-item.nav-link.mr-3.button:hover{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.54, 0.49) 0s;
+    border-top: 1px solid red;
+}
+
+a.nav-item.nav-link.mr-3.search:hover{
+    color:red;
+}
+
+a.nav-item.nav-link.mr-3.search{
+    color:white;
+}
+
+i.fas.fa-search {
+    font-size: 14px;
+}
+
+a.nav-item.nav-link.mr-3.button.active{
+    color: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.54, 0.49) 0s;
+    border-top: 1px solid red;
+}
+/* End of Navbar*/
