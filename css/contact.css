@@ -1,0 +1,355 @@
+
+    /*Start of universal selector*/
+body{
+    font-family: open-sans;
+}
+
+h1{
+    color: #2c3e50;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: #918f8f;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+li {
+    float: left;
+    list-style: none;
+    width: 218px;
+}
+
+ul {
+    overflow: hidden;
+    padding: 0;
+    left: 0;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+/*End of universal selector*/
+
+
+/* Start of Navbar*/
+.container-fluid.header {
+    background: #2c3e50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+    
+    /*dari sini uji coba navbar header*/
+a.nav-item.nav-link.mr-3.button {
+    color: white;
+    border-top: 1px solid #2c3e50;
+    size: 2px;
+    width: 90px;
+    /*dibawah ini tambahan*/
+    height: 160%;
+    position: relative;
+    z-index: 9;
+}
+
+ul.ul-submenu2 {
+    position: absolute;
+    z-index: 1;
+    top: 68px;
+    width: 130px;
+    background: transparent;
+    opacity: 0;
+    height: 0;
+    transition: height 0.5s, background 0.5s,opacity 0.5s,width 0.5s;
+}
+
+a.nav-item.nav-link.mr-3.button:hover ul.ul-submenu2 {
+    display: block;
+    background: white;
+    width: 130px;
+    opacity: 1;
+    height: 120px;
+}
+
+span.ujicoba4 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba4:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+
+span.ujicoba5 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba5:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+
+span.ujicoba6 {
+    display: inherit;
+    padding-left: 5px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+span.ujicoba6:hover {
+    background: red;
+    transition: 0.5s;
+    color: white;
+}
+    /*sampe sini uji coba navbar header*/
+
+a.nav-item.nav-link.mr-3.button:hover{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.54, 0.49) 0s;
+    border-top: 1px solid red;
+}
+
+a.nav-item.nav-link.mr-3.search:hover{
+    color:red;
+}
+
+a.nav-item.nav-link.mr-3.search{
+    color:white;
+}
+
+i.fas.fa-search {
+    font-size: 14px;
+}
+
+a.nav-item.nav-link.mr-3.button.active{
+    color: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.54, 0.49) 0s;
+    border-top: 1px solid red;
+}
+/* End of Navbar*/
+
+    /*Start of Bagian 2*/
+.container-fluid.fluid-bagian2 {
+    border-top: 1px solid #2c3e50;
+    margin-top: 1px;
+}
+
+.col-md-12.text-center.border-top.border-bottom {
+    padding: 10px 0;
+}
+
+.col-md-12.text-center.border-top.border-bottom>a,.col-md-12.text-center.border-top.border-bottom>span{
+    color: #8a8686;
+}
+
+hr.aboutus {
+    width: 265px;
+    margin-top: -22px;
+}
+
+h4.aboutus {
+    display: inline-block;
+    background: white;
+    width: 170px;
+}
+
+.col-md-4.padding-bawah-kiri {
+    padding: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+span.kiri-bawah {
+    color: #918f8f;
+    font-weight: bold;
+}
+
+a.link-bawah-kiri {
+    transition: 0.5s;
+}
+
+a.link-bawah-kiri:hover {
+    color: black;
+}
+
+input[type="text"] {
+    border: 1px solid #eeeee6;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+input[type="email"] {
+    border: 1px solid #eeeee6;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+
+
+textarea {
+    border: 1px solid #eeeee6;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.18);
+    width: 97%;
+}
+
+.col-md-12.area-1 {
+    padding-left: 15px;
+}
+
+
+.col-md-12.button-bawah {
+    padding: 0 15px;
+}
+
+input[type="reset"] {
+    background: #e74c3c;
+    border: 0px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="reset"]:hover{
+    background:#bc463a;
+}
+
+input[type="submit"] {
+    background: #e74c3c;
+    border: 0px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background:#bc463a;
+}
+    /*End of Bagian 2*/
+
+/*Start of bagian 3*/
+.container-fluid.warna-container-bagian-10{
+    background:#34495e;
+}
+
+h5.bagian-10 {
+    color: white;
+}
+
+hr.bagian-10 {
+    background: #495c6e;
+}
+
+a.link-bagian-10 {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a.link-bagian-10-2{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+
+a.link-bagian-10:hover,a.link-bagian-10-2:hover{
+    color: red;
+    border-bottom:1px solid red;
+}
+
+.far.fa-check-circle.list-bagian-10{
+    color: red;
+    background: transparent;
+    display: inline-block;
+    border-radius: 50%;
+    height: 16px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+i.fab.fa-facebook-f.i-bagian-10,i.fab.fa-twitter.i-bagian-10,
+i.fa-google-plus-g.i-bagian-10,i.fa-instagram.i-bagian-10,
+i.fa-linkedin-in.i-bagian-10,i.fa-dribbble.i-bagian-10,
+i.fa-wordpress-simple.i-bagian-10{
+    background: #253e50;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #91959b;
+    margin: 0 5px;    
+}
+
+i.fab.fa-facebook-f.i-bagian-10:hover,i.fab.fa-twitter.i-bagian-10:hover,
+i.fa-google-plus-g.i-bagian-10:hover,i.fa-wordpress-simple.i-bagian-10:hover,
+i.fa-instagram.i-bagian-10:hover,i.fa-linkedin-in.i-bagian-10:hover,i.fa-dribbble.i-bagian-10:hover{
+    background: red;
+    color: white;
+}    
+/*End of bagian 3*/
+
+/*Start of Footer*/
+
+.container-fluid.footer {
+    background: #2c3e50;
+    padding: 50px 0;
+}
+
+a.link-privacy {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a.link-privacy:hover {
+    color: #e74c3c;
+}
+
+a.link-privacy.active {
+    color: #e74c3c;
+}
+
+/*End of footer*/
